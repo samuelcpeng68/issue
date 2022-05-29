@@ -16,7 +16,7 @@ public class ReinstateController {
 		BillingInfo binfo = bs.getBillingInfo();
 		
 		
-		if(reversed) {
+		if(oldest) {
 			List<Bill> bills = binfo.getBills();
 			Collections.reverse(bills);
 			return bills.stream()		
