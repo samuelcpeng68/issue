@@ -10,7 +10,7 @@ import reinstate.service.BillingService;
 
 public class ReinstateController {
 	
-	public int getReinstateAmount(boolean reversed) {
+	public int getReinstateAmount(boolean oldest) {
 		
 		BillingService bs = new BillingService();
 		BillingInfo binfo = bs.getBillingInfo();
