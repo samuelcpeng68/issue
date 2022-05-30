@@ -10,9 +10,6 @@ import reinstate.model.BillingInfo;
 
 /**
  * Billing Service Stub to simulate Billing Info received from REST API.
- * 
- * @author samuel.c.peng
- *
  */
 public class BillingService {
 	
