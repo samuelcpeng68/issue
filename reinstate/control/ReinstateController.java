@@ -10,6 +10,12 @@ import reinstate.service.BillingService;
 
 public class ReinstateController {
 	
+	/**
+	 * Retrieve reinstate amount.
+	 * 
+	 * @param oldest - true : two oldest outstanding bills amount returned
+	 * 		 - false : two newest outstanding bills amount returned
+	 */
 	public int getReinstateAmount(boolean oldest) {
 		
 		BillingService bs = new BillingService();
